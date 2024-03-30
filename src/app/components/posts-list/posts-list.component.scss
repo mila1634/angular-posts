@@ -1,0 +1,17 @@
+.post-card {
+  max-width: 400px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container > * {
+    flex: 1 1 400px;
+}
